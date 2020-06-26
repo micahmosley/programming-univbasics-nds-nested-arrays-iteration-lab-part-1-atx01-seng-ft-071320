@@ -8,9 +8,11 @@ while i < src.length do
   while j<src[i].length do 
     if (src[i][j])%2==0 
       puts src[i][j]
+      j+=1
+    else 
+      j+=1
     end 
-    j++
   end
-  i++
+  i+=1
 end 
 end
